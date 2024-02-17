@@ -6,6 +6,8 @@ export class BaseModel extends DefaultModel {
   id!: string;
 }
 
+///
+////
 export class ParanoidBaseModel extends ParanoidDefaultModel {
   @PrimaryGeneratedColumn('uuid')
   id!: string;
