@@ -5,7 +5,7 @@ export class BaseModel extends DefaultModel {
   @PrimaryGeneratedColumn('uuid')
   id!: string;
 }
-
+//
 ///
 ////
 export class ParanoidBaseModel extends ParanoidDefaultModel {
